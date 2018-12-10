@@ -108,6 +108,7 @@ nav h1 a {
   background-color: #252831;
   text-align: center;
   padding: 10px 0;
+  height: auto;
 }
 .filter-options h2 {
   color: white;
@@ -125,6 +126,18 @@ nav h1 a {
   margin: 10px;
   padding: 0 10px;
   width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-options {
+    text-align: left;
+    padding: 0;
+  }
+
+  .filter-options h2 {
+    margin: 0 10px 0 20px;
+    display: inline;
+  }
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -192,6 +205,10 @@ nav h1 a {
 #restaurants-list li a:hover {
   color: orange;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  
 }
 
 /* ====================== Restaurant Details ====================== */
