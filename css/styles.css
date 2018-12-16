@@ -306,7 +306,7 @@ nav h1 a {
   margin: 10px;
 }
 
-.container2 {
+.restaurant-details-wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -319,7 +319,7 @@ nav h1 a {
     margin: 0;
   }
 
-  .container2 {
+  .restaurant-details-wrapper {
     margin: 10px 0 0 0;
   }
 
@@ -350,7 +350,7 @@ nav h1 a {
     min-height: 100%;
   }
 
-  .container2 {
+  .restaurant-details-wrapper {
     width: 33%;
     flex-direction: column;
     margin: 0 0 0 2%;
