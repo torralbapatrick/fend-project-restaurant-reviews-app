@@ -5,6 +5,19 @@ var newMap
 var markers = []
 
 /**
+ * Make sure Service Worker are supported
+ */
+if ('serviceWorker' in navigator) {
+  // console.log('Service Worker Supported');
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register('../sw.js')
+      .then(reg => console.log('Service Worker: Registered'))
+      .catch(err => console.log(`Service Worker: Error: ${err}`))
+  });
+}
+
+/**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
 document.addEventListener('DOMContentLoaded', (event) => {
