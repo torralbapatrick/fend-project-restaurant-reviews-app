@@ -128,7 +128,7 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+  width: 90%;
 }
 
 @media screen and (min-width: 768px) {
@@ -140,6 +140,10 @@ nav h1 a {
   .filter-options h2 {
     margin: 0 10px 0 20px;
     display: inline;
+  }
+
+  .filter-options select {
+    width: 200px;
   }
 }
 
