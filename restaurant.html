@@ -33,14 +33,14 @@
 
     <!-- Breadcrumb -->
     <ul id="breadcrumb">
-      <li><a tabindex="2" aria-label="Breadcrumb Navigation" href="/">Home</a></li>
+      <li><a tabindex="2" aria-label="Breadcrumb Navigation" role="navigation" href="/">Home</a></li>
     </ul>
   </header>
 
   <!-- Main Content -->
   <main id="maincontent">
     <!-- Restaurant Details -->
-    <section id="restaurant-container">
+    <section aria-labelledby="restaurant-name" id="restaurant-container">
       <h2 tabindex="3" id="restaurant-name"></h2>
       
       <figure>
@@ -56,13 +56,13 @@
 
         <!-- Map -->
         <div id="map-container">
-          <div id="map"></div>
+          <div role="application" id="map"></div>
         </div>
       </div>
     </section>
 
     <!-- Reviews -->
-    <section id="reviews-container">
+    <section aria-labelledby="reviews-heading" id="reviews-container">
       <ul id="reviews-list"></ul>
     </section>
   </main>

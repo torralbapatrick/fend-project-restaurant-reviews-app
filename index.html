@@ -35,13 +35,13 @@
   <main id="maincontent">
     <!-- Map -->
     <section id="map-container">
-      <div id="map"></div>
+      <div role="application" id="map"></div>
     </section>
 
     <!-- Filter Option -->
-    <section>
+    <section aria-labelledby="filter-heading">
       <div class="filter-options">
-        <h2>Filter Results</h2>
+        <h2 id="filter-heading">Filter Results</h2>
 
         <select tabindex="2" aria-label="Select Neighborhood" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
