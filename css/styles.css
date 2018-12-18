@@ -247,6 +247,12 @@ nav h1 a {
   width: 100%;
 }
 
+.restaurant-details-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .restaurant-details {
   width: 100%;
   display: flex;
@@ -279,6 +285,8 @@ nav h1 a {
   width: 100%;
 }
 
+
+/* ====================== Reviews ====================== */
 #reviews-container {
   margin-bottom: 30px;
 }
@@ -306,14 +314,22 @@ nav h1 a {
   width: 100%;
 }
 
-#reviews-list li p {
+#reviews-list .reviews-detail {
   margin: 10px;
 }
 
-.restaurant-details-wrapper {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+#reviews-list .reviews-detail .name {
+  display: inline;
+  font-weight: bold;
+}
+
+#reviews-list .reviews-detail .date {
+  display: inline;
+  font-style: italic;
+}
+
+#reviews-list .reviews-detail .rating {
+  color: #ffc83d;
 }
 
 @media screen and (min-width: 768px) {
