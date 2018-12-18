@@ -149,7 +149,7 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  background-color: #f3f3f3;
+  background-color: #fff;
   list-style: outside none none;
   margin: 0;
   padding: 20px 0;
@@ -176,7 +176,6 @@ nav h1 a {
 #restaurants-list span {
   position: absolute;
   bottom: 0;
-  margin-top: 15px;
   width: 100%;
 }
 #restaurants-list hr {
@@ -210,7 +209,7 @@ nav h1 a {
   -webkit-transition: all 0.4s ease-in-out;
 }
 #restaurants-list li a:hover {
-  color: orange;
+  color: #f18200;
   text-decoration: underline;
 }
 
