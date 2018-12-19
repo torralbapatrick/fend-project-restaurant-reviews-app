@@ -10,8 +10,11 @@ This project is completed as part of [Udacity](https://www.udacity.com/) Front E
 2. `cd` into newly cloned repository
     * Check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use). For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
     * Note - For Windows systems, Python 3.x is installed as `python` by default. To start a Python 3.x server, you can simply enter `python -m http.server 8000`
-3. Open your browser and go to `http://localhost:8000/`
-4. Or you can check the hosted site [here](https://torralbapatrick.github.io/fend-project-restaurant-reviews-app/)
+3. Open `js/dbhelper.js` and change variable `gitHubPages` to `localHost` on line 15
+4. Open your browser and go to `http://localhost:8000/`
+
+
+_Or you can check the hosted site [here](https://torralbapatrick.github.io/fend-project-restaurant-reviews-app/)._
 
 ## Dependencies
 
